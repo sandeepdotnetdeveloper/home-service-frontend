@@ -126,6 +126,11 @@ export default function Footer() {
                   >
                     <h2>Explore</h2>
                     <ul className="list-widget">
+                       <li>
+                        <Link to="/admin-login" onClick={handleLinkClick}>
+                          <i className="bx bx-arrow-back"></i>Admin Login
+                        </Link>
+                      </li>
                       <li>
                         <Link to="/aboutus" onClick={handleLinkClick}>
                           <i className="bx bx-arrow-back"></i>About Us
