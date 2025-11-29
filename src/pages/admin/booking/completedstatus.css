@@ -1,0 +1,155 @@
+
+.custom-card {
+  border-radius: 12px;
+  border: none;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.custom-card-body {
+  padding: 30px;
+  font-family: 'Arial', sans-serif;
+}
+
+.custom-card-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #002434;
+  margin-bottom: 20px;
+}
+
+.service-card, .customer-card {
+  background-color: #fff;
+  border-left: 5px solid #FF5B4A;
+}
+
+.service-card .custom-card-title, .customer-card .custom-card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.custom-address {
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.text-muted {
+  color: #888;
+  font-size: 1.05rem;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th, .custom-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.custom-table th {
+  background-color: #f4f4f4;
+}
+
+.custom-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+}
+
+.custom-table {
+  width: 100%;
+  min-width: 800px; 
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-family: 'Arial', sans-serif;
+}
+
+.custom-table th {
+  background-color: #002434;
+  color: white;
+  font-size: 0.9rem; 
+  font-weight: bold;
+}
+
+.custom-table td {
+  background-color: #fff;
+  color: #555;
+  font-size: 0.85rem;
+}
+
+.custom-table tr:hover {
+  background-color: #f4f4f4;
+}
+
+.custom-btn {
+  border-color: #FF5B4A;
+  color: #004b8d;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 8px;
+}
+
+.custom-btn:hover {
+  background-color: #002434;
+  color: white;
+}
+
+
+@media (max-width: 767px) {
+  .custom-col-lg-6 {
+    flex: 1 0 100%;
+  }
+
+  .custom-card-body {
+    padding: 15px;
+  }
+
+  .custom-table {
+    min-width: 600px; 
+  }
+
+  .custom-table th,
+  .custom-table td {
+    padding: 8px; 
+    font-size: 0.8rem;
+  }
+
+  .custom-btn {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+}
